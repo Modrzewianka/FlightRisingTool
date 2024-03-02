@@ -187,30 +187,6 @@ FRTool.AetherTertiaryGene = function(name, odds, price) {
     FRTool.AetherTertiaryGenes.push(this);
 }
 
-FRTool.SandsurgePrimaryGene = function(name, odds, price) {
-    this.Name = name;
-    this.Odds = FRTool.Odds[odds];
-    this.Price = price;
-    FRTool.SandsurgePrimaryGene[name] = this;
-    FRTool.SandsurgePrimaryGenes.push(this);
-}
-
-FRTool.SandsurgeSecondaryGene = function(name, odds, price) {
-    this.Name = name;
-    this.Odds = FRTool.Odds[odds];
-    this.Price = price;
-    FRTool.SandsurgeSecondaryGene[name] = this;
-    FRTool.SandsurgeSecondaryGenes.push(this);
-}
-
-FRTool.SandsurgeTertiaryGene = function(name, odds, price) {
-    this.Name = name;
-    this.Odds = FRTool.Odds[odds];
-    this.Price = price;
-    FRTool.SandsurgeTertiaryGene[name] = this;
-    FRTool.SandsurgeTertiaryGenes.push(this);
-}
-
 FRTool.Color = function(name, color) {
     this.Name = name;
     this.Color = color;
@@ -262,9 +238,6 @@ FRTool.initFR = function(data) {
     FRTool.AetherPrimaryGenes = [];
     FRTool.AetherSecondaryGenes = [];
     FRTool.AetherTertiaryGenes = [];
-    FRTool.SandsurgePrimaryGenes = [];
-    FRTool.SandsurgeSecondaryGenes = [];
-    FRTool.SandsurgeTertiaryGenes = [];
     FRTool.ModernBreeds = [];
     FRTool.AncientBreeds = [];
     FRTool.Colors = [];
